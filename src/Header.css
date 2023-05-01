@@ -1,17 +1,23 @@
 .Header {
     border : 3px solid brown;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-
+    
 }
 
 .container {
     margin-right: 20px;
     display: flex;
+ 
+   
+
     
 }
 
-ul > li {
+.container li {
+    margin : 10px;
+    text-decoration: none;
     list-style-type: none;
-    margin : 5px; 
+   
 }

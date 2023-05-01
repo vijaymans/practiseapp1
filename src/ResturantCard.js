@@ -1,3 +1,5 @@
+import { IMG_CDN_URL } from "./Components/Constants"
+
 const ResturantCard = (props) =>
         {
             console.log(props)
@@ -16,7 +18,7 @@ const ResturantCard = (props) =>
                 <img 
                 style={{width : "100%"}}
                 alt="hotel"
-                src ={`https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/${cloudinaryImageId}`}
+                src ={`${IMG_CDN_URL}${cloudinaryImageId}`}
                 />
                 <h2>{name}</h2>
                 <h3>Rating - {avgRating}</h3>

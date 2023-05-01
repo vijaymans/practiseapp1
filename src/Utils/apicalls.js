@@ -1,0 +1,1 @@
+const url = 'https://64296601ebb1476fcc4870d1.mockapi.io/crud'
