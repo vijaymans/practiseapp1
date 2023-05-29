@@ -1,0 +1,16 @@
+.contactform{
+    display : flex;
+    flex-direction: column;
+    width : 40%;
+    margin : 20px auto
+    
+}
+
+.gender,.checkbox{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.gender label,input{
+    margin-right: 20px;
+    /* margin-left: 20px; */
+}

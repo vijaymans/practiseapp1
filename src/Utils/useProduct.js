@@ -1,5 +1,5 @@
 import { useState , useEffect } from "react"
-import { FETCH_PRODUCT_URL } from "../Components/Constants"
+import { FETCH_PRODUCT_URL } from "../Constants/Constants"
 
 
 const  useProduct =(params) =>
