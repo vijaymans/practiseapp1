@@ -65,7 +65,7 @@ const DependentDropdown =() =>
  console.log(geodata)
 
     return (<div className ="dependent-dropdown">
-               
+               <h2>Countries-States-cities</h2>
             <h3>Countries</h3> 
 
            <select value= {country} onChange ={ handleCountryChange}>
