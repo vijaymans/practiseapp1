@@ -51,8 +51,7 @@ function Users() {
     
   return ( <>
     <Form style={{display :"flex" , flexDirection : "column",width : "200px" , height : "200px" ,
-     marginTop:"30px",
-    margin : "auto"}} onSubmit ={handleSubmit}>
+     margin : "30px auto" }} onSubmit ={handleSubmit}>
 
         
         Enter Name<input type="text" value ={userdetails.username} name ="username" onChange={handleChange}/>

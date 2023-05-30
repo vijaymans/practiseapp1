@@ -41,6 +41,10 @@ const Header =() =>
             <NavLink to="Users">
                 <li>Users</li>
             </NavLink>
+
+            <NavLink to="AdminConsole">
+                <li>Admin Console</li>
+            </NavLink>
             
         </ul>
 

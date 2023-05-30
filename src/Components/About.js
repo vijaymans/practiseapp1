@@ -4,6 +4,7 @@ import { Outlet } from 'react-router-dom'
 import {useState, useEffect} from 'react'
 import axios from 'axios'
 import { useSelector } from 'react-redux'
+import { useNavigate } from 'react-router-dom'
 
 
 // class About extends React.Component{
@@ -63,6 +64,8 @@ const About =() =>
 
     const products = useSelector( (state)=> state.products )
 
+    const navigate = useNavigate()
+
     const handleChange =(e)=>
     {
         console.log(e.target.value)
@@ -82,9 +85,16 @@ const About =() =>
     })
     console.log(filteredData)
 
+    const handleClick=()=>
+    {
+        navigate('Profile')
+        
+    }
+
 
     return(<div>
-        <h2>{products.length}</h2>
+        {/* //<button onClick ={handleClick}>profile</button> <br/><br/> */}
+        <Outlet/>
       <input type="text" value={userinp} onChange ={handleChange}/>
       <div>
          <ul>

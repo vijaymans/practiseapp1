@@ -1,6 +1,7 @@
 .dependent-dropdown{
     width : 40%;
-    margin : 20px auto
+    margin : 20px auto;
+    /* border : 3px solid oldlace */
 }
 .SelectSearch {
     margin : 30px;

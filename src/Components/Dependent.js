@@ -30,7 +30,7 @@ const DependentDropdown =() =>
  const handleStateChange =(e)=>
  {
     
-    console.log(states)
+   
     console.log(e.target.value)
 
     const selectedstatecitiesobj = states.find( (ele)=>
@@ -83,7 +83,7 @@ const DependentDropdown =() =>
 
            <select value={ustate} onChange={handleStateChange}>
                 <option>Please Select the State</option>
-                {   states.length!==0 &&
+                {   
                      states.map( (ele)=>
                             {
                                 return  <option key={ele.id}> {ele.name} </option>
@@ -107,7 +107,7 @@ const DependentDropdown =() =>
                 }
             </select> 
                 <br/>
-            <button onClick ={handleSubmit}>Submit</button>
+            <button style={{marginTop:"20px"}}onClick ={handleSubmit}>Submit</button>
            
            <br/> <br/>
 
