@@ -18,7 +18,7 @@ function AdminConsole() {
     "Task Type Master",
   ];
 
-  let Comporender;
+
 
   const handleClick = (compo1) => {
     setCompo(compo1);
