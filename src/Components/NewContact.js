@@ -2,7 +2,7 @@ import React from "react";
 import './contact.css'
 import { useState } from "react";
 
-function Contact() {
+function NewContact() {
 
     const [userinputs,setUserInputs] = useState({
         username : "",
@@ -131,4 +131,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default NewContact;

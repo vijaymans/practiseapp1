@@ -16,7 +16,8 @@ import AdminConsole from './Components/AdminConsole'
 
 
 
-const DynamicContact = lazy( ()=> import('./Components/Contact.js') )
+
+const DynamicContact = lazy( ()=> import('./Components/ContactContainer.js') )
 
 
 const store = configureStore()
