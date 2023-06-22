@@ -13,6 +13,8 @@ import { Provider } from 'react-redux'
 import configureStore from './Store'
 import Users from './Components/Users'
 import AdminConsole from './Components/AdminConsole'
+import SuccessMessage from './Components/SucessMessage'
+import ErrorMessage from './Components/ErrorMessage'
 
 
 
@@ -68,53 +70,64 @@ const App = () =>
         errorElement : <Error/>,
 
         children : [
-        {
-          path : "About",
-          element : <About/>,
-          children : [ {
-            path : "Profile",
-            element : <Profile/>
-                    }]
-       },
+                {
+                  path : "About",
+                  element : <About/>,
+                  children : [ {
+                    path : "Profile",
+                    element : <Profile/>
+                            }]
+              },
 
-       {
-         path : "/",
-         element : <Body userdata={userdata}/>
-       },
+              {
+                path : "/",
+                element : <Body userdata={userdata}/>
+              },
 
-       {
-        path : "Contact",
-        // element :  <DynamicContact/>
-        element : <Suspense fallback={ <h1>Loading....</h1>}>
-                      <DynamicContact/>
-                  </Suspense>
-                 
-       },
+              {
+                path : "Contact",
+                // element :  <DynamicContact/>
+                element : <Suspense fallback={ <h1>Loading....</h1>}>
+                              <DynamicContact/>
+                          </Suspense>
+                        
+              },
 
-       {
-         path : "Product/:Id",
-         element : <ProductDetails/>
-       },
+              {
+                path : "Product/:Id",
+                element : <ProductDetails/>
+              },
 
-       {
-        path : "Instamart",
-        element : <Instamart/>
-       },
+              {
+                path : "Instamart",
+                element : <Instamart/>
+              },
 
-       {
-        path : "Dependent",
-        element : <Dependent/>
-       },
-       {
-        path : "Users",
-        element : <Users/>
-       },
-       {
-        path : "AdminConsole",
-        element : <AdminConsole/>
-       }
+              {
+                path : "Dependent",
+                element : <Dependent/>
+              },
+              {
+                path : "Users",
+                element : <Users/>
+              },
+              {
+                path : "AdminConsole",
+                element : <AdminConsole/>
+              }
       
       ]
+      },
+
+      {
+        path :'SuccessMessage',
+        element : <SuccessMessage/>
+
+      },
+
+      {
+        path :'ErrorMessage',
+        element : <ErrorMessage/>
       }
 
     ])

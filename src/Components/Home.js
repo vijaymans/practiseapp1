@@ -10,9 +10,15 @@ import { Outlet } from 'react-router-dom'
 function Home() {
   return (
     <div>
-        <Header/>
+       
+         <Header/>
+       
+       
         {/* <h2>sfsfsdfe</h2> */}
+       
         <Outlet/>
+        
+        
     </div>
   )
 }
