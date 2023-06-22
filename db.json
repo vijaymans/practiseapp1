@@ -1,28 +1,564 @@
 {
   "users": [
     {
-      "username": "dad",
+      "username": "vijay",
       "email": "vijaykumar3198@gmail.com",
-      "age": "34",
-      "id": 4
-    },
-    {
-      "username": "mala",
-      "email": "raghavendra.m68@gmail.com",
-      "age": "45",
+      "age": "35",
       "id": 1
     },
     {
-      "username": "vijay",
-      "email": "vijaykumar3198@gmail.com",
-      "age": "45",
-      "id": 6
-    },
-    {
-      "username": "vsdsd",
-      "email": "psvinay10@gmail.com",
+      "username": "dad",
+      "email": "raghavendra.m68@gmail.com",
       "age": "45",
       "id": 2
+    },
+    {
+      "username": "ass",
+      "email": "psvinay10@gmail.com",
+      "age": "23",
+      "id": 4
+    }
+  ],
+  "geographic": [
+    {
+      "id": "8498d375-b413-4575-b058-58d1a682299b",
+      "country": "Iceland",
+      "state": "Capital Region",
+      "city": "Seltjarnarnes"
+    },
+    {
+      "id": "339f7911-e94a-4e39-a6d0-bf5d42b7ce7d",
+      "country": "Afghanistan",
+      "state": "Khost",
+      "city": "Khōst"
+    },
+    {
+      "id": "e4800cbd-0e65-445c-9eb1-20d8085c1f97",
+      "country": "Algeria",
+      "state": "Chlef",
+      "city": "Boukadir"
+    },
+    {
+      "id": "cb4361e9-c73c-4648-869b-673bcfd9443a",
+      "country": "India",
+      "state": "Karnataka",
+      "city": "Ballari"
+    },
+    {
+      "id": "e67cd390-c4fb-4485-8329-96197e60ad34",
+      "country": "Albania",
+      "state": "Fier District",
+      "city": ""
+    },
+    {
+      "id": "12f037d4-dc77-410b-8f46-f9f70ab0bb0b",
+      "country": "Andorra",
+      "state": "Encamp",
+      "city": "Pas de la Casa"
+    },
+    {
+      "id": "4a718ea4-2100-416b-8a94-09a85054e11e",
+      "country": "Angola",
+      "state": "Zaire Province",
+      "city": ""
+    },
+    {
+      "id": "cdec1a82-0b4a-4a94-87b8-c6a1569eb89d",
+      "country": "Argentina",
+      "state": "",
+      "city": ""
+    },
+    {
+      "id": "b86875d7-32c9-458f-876f-03e125c64403",
+      "country": "",
+      "state": "",
+      "city": ""
+    },
+    {
+      "id": "ea7e6743-d787-47f6-8928-f76c282dd682",
+      "country": "",
+      "state": "",
+      "city": ""
+    },
+    {
+      "id": "e03868d3-1af9-4c74-bd8d-acb38c784b41",
+      "country": "",
+      "state": "",
+      "city": ""
+    },
+    {
+      "id": "64b6ee21-47fd-4bf0-a8a6-cfe188fec026",
+      "country": "",
+      "state": "",
+      "city": ""
+    },
+    {
+      "id": "c4cec6f6-08c7-49bc-a32f-fb9d9d6a4ff0",
+      "country": "",
+      "state": "",
+      "city": ""
+    },
+    {
+      "id": "2d0c986b-f8b6-4b11-975a-508a608c8119",
+      "country": "",
+      "state": "",
+      "city": ""
+    },
+    {
+      "id": "ac3e619e-0f51-425e-a216-74916980e0be",
+      "country": "",
+      "state": "",
+      "city": ""
+    },
+    {
+      "id": "2edbc72f-14b7-4575-ac98-8b77f4e30a4c",
+      "country": "",
+      "state": "",
+      "city": ""
+    },
+    {
+      "id": "757987ff-8cc7-42c8-9f2c-ed4d19d1f51d",
+      "country": "Afghanistan",
+      "state": "Khost",
+      "city": "Khōst"
+    },
+    {
+      "id": "352fe66e-4211-40f4-99dc-5af33e8cd50d",
+      "country": "Afghanistan",
+      "state": "Kapisa",
+      "city": "Sidqābād"
+    },
+    {
+      "id": "f7c9048a-fd87-48ec-9a57-9d1c7db434a9",
+      "country": "Argentina",
+      "state": "Salta Province",
+      "city": "Departamento de Rosario de Lerma"
+    },
+    {
+      "id": "b098efeb-71db-4a30-b123-3bf99a812eb9",
+      "country": "Iceland",
+      "state": "Eastern Region",
+      "city": "Höfn"
+    },
+    {
+      "id": "d32bc70a-e3d4-48ba-baf3-4c310e087182",
+      "country": "Afghanistan",
+      "state": "Kunar",
+      "city": "Asadabad"
+    },
+    {
+      "id": "ada41e98-a1ed-4ad3-aef7-ae3158a543fb",
+      "country": "Albania",
+      "state": "Kavajë District",
+      "city": ""
+    },
+    {
+      "id": "7d0b1f46-5023-48d5-8fd4-1e4a18ede997",
+      "country": "Afghanistan",
+      "state": "Khost",
+      "city": "Khōst"
+    },
+    {
+      "id": "fe06c8d0-07a0-4dbb-a274-3fd69cd9a6ec",
+      "country": "Iceland",
+      "state": "Capital Region",
+      "city": "Reykjavík"
+    },
+    {
+      "id": "5cd1d125-15d9-4347-afdf-9515fe213ec2",
+      "country": "Afghanistan",
+      "state": "Kunar",
+      "city": "Asadabad"
+    },
+    {
+      "id": "554d5df4-f8d4-4210-9d73-4811a1ed0f6d",
+      "country": "Afghanistan",
+      "state": "Khost",
+      "city": "Khōst"
+    },
+    {
+      "id": "366c22c1-76dc-4a5e-be26-78ef8717a9ef",
+      "country": "Algeria",
+      "state": "Djanet",
+      "city": ""
+    },
+    {
+      "id": "069a3579-5b67-4460-a606-b2253b33aac8",
+      "country": "Afghanistan",
+      "state": "Kunar",
+      "city": "Asadabad"
+    },
+    {
+      "id": "504d6d74-6fe3-4716-9598-854cbc9fd5fc",
+      "country": "Afghanistan",
+      "state": "Kunar",
+      "city": "Asadabad"
+    },
+    {
+      "id": "ebdccd3b-1762-41a1-a39a-f16d5c8ef44e",
+      "country": "Afghanistan",
+      "state": "Kabul",
+      "city": "Paghmān"
+    },
+    {
+      "id": "3d8d6728-7611-4ab5-b200-9fc8dc10c200",
+      "country": "Afghanistan",
+      "state": "Kabul",
+      "city": ""
+    },
+    {
+      "id": "363cdc66-7b51-49a8-8cd0-6a36a3f87bd3",
+      "country": "Afghanistan",
+      "state": "Kabul",
+      "city": ""
+    },
+    {
+      "id": "acdfb92f-6f27-41c2-9032-0981376f30ef",
+      "country": "India",
+      "state": "Karnataka",
+      "city": ""
+    },
+    {
+      "id": "94eac61d-5904-45e6-b5cf-58fee4ccb8c4",
+      "country": "Afghanistan",
+      "state": "Kapisa",
+      "city": "Sidqābād"
+    },
+    {
+      "id": "fb96060e-8747-4622-914c-15bb6eaf854f",
+      "country": "Afghanistan",
+      "state": "Kunar",
+      "city": "Asadabad"
+    },
+    {
+      "id": "774ff912-899e-4ffd-92b7-df044832c353",
+      "country": "India",
+      "state": "Karnataka",
+      "city": ""
+    },
+    {
+      "id": "c13d0ba8-a866-41f6-882f-46681e6eaa3f",
+      "country": "Algeria",
+      "state": "Chlef",
+      "city": ""
+    },
+    {
+      "id": "fc857a20-118a-490d-88d7-8acbbc2432d8",
+      "country": "Afghanistan",
+      "state": "Kapisa",
+      "city": "Sidqābād"
+    },
+    {
+      "id": "21e5bda9-21c3-4c4d-ae9f-a857ee552cfd",
+      "country": "Albania",
+      "state": "Kavajë District",
+      "city": ""
+    },
+    {
+      "id": "321c9862-871c-42e2-9543-456db170f863",
+      "country": "Guyana",
+      "state": "Barima-Waini",
+      "city": ""
+    },
+    {
+      "id": "5f048ce9-5f27-4d4c-9800-890bff0f8c6e",
+      "country": "Australia",
+      "state": "Tasmania",
+      "city": "Chigwell"
+    },
+    {
+      "id": "902fd464-20b1-4cc4-a0d1-22a66d6276d9",
+      "country": "Afghanistan",
+      "state": "Kabul",
+      "city": ""
+    },
+    {
+      "id": "377c5938-3fa0-4481-8e66-becaf8f6425e",
+      "country": "Afghanistan",
+      "state": "Kabul",
+      "city": ""
+    },
+    {
+      "id": "163fc54e-b057-4c69-9454-08c462df0c32",
+      "country": "Afghanistan",
+      "state": "Kapisa",
+      "city": "Sidqābād"
+    },
+    {
+      "id": "14b1fc6c-eda4-425f-b1de-380122de05b0",
+      "country": "India",
+      "state": "Karnataka",
+      "city": ""
+    },
+    {
+      "id": "73712e69-da03-46b5-87ad-878249066145",
+      "country": "Chile",
+      "state": "Tarapacá",
+      "city": ""
+    },
+    {
+      "id": "b8201f82-8d6a-4b18-a16b-32545c982bd1",
+      "country": "Albania",
+      "state": "Has District",
+      "city": ""
+    },
+    {
+      "id": "6cebb4e0-3af5-4cb9-8b6c-e9e0b0f0078a",
+      "country": "Afghanistan",
+      "state": "Kapisa",
+      "city": ""
+    },
+    {
+      "id": "e2ee159c-2f5f-4c85-bd2b-41dd84271dc5",
+      "country": "Afghanistan",
+      "state": "Kapisa",
+      "city": ""
+    },
+    {
+      "id": "a3a9364a-3b47-487f-b79f-4b1fc0a6c0b3",
+      "country": "Afghanistan",
+      "state": "Kunar",
+      "city": "Āsmār"
+    },
+    {
+      "id": "a4082ef7-eea5-472f-99ea-9b1f2c92e0e0",
+      "country": "Angola",
+      "state": "Zaire Province",
+      "city": ""
+    },
+    {
+      "id": "6a66fc6e-9a65-453e-b48b-757bd7e5cfad",
+      "country": "Afghanistan",
+      "state": "Khost",
+      "city": "Khōst"
+    },
+    {
+      "id": "0b0dd704-2878-4155-b741-d60f0b4350ba",
+      "country": "Albania",
+      "state": "Has District",
+      "city": ""
+    },
+    {
+      "id": "ed287c71-a039-4d31-9892-40cd53bc3356",
+      "country": "Afghanistan",
+      "state": "Kunar",
+      "city": ""
+    },
+    {
+      "id": "08a1249b-e0e2-4e73-bee9-07a53209d486",
+      "country": "Argentina",
+      "state": "San Juan Province",
+      "city": ""
+    },
+    {
+      "id": "b324f62b-a25e-4aa0-9f07-a0ecb507093d",
+      "country": "Afghanistan",
+      "state": "Kunar",
+      "city": "Asadabad"
+    },
+    {
+      "id": "f8fb3bec-69ec-49bf-a8d5-0d669984a7af",
+      "country": "Albania",
+      "state": "Kolonjë District",
+      "city": "Asadabad"
+    },
+    {
+      "id": "a11aacb6-201d-4a64-9352-31b5aec9120d",
+      "country": "Albania",
+      "state": "Kolonjë District",
+      "city": "Asadabad"
+    },
+    {
+      "id": "4cbeef8c-3c9e-4eae-bfac-e15e42443fd8",
+      "country": "Afghanistan",
+      "state": "Khost",
+      "city": ""
+    },
+    {
+      "id": "b1ea2bce-184f-427a-9455-2680293da113",
+      "country": "Algeria",
+      "state": "Djanet",
+      "city": ""
+    },
+    {
+      "id": "8271cbce-67c2-4b74-8cc6-103e87214678",
+      "country": "Afghanistan",
+      "state": "Kabul",
+      "city": ""
+    },
+    {
+      "id": "4a618246-3811-46d9-9c1f-3a3b7b953715",
+      "country": "Afghanistan",
+      "state": "Kapisa",
+      "city": ""
+    },
+    {
+      "id": "a602b0f1-5db9-4fa1-8617-83f54d2271c3",
+      "country": "Afghanistan",
+      "state": "Kunar",
+      "city": ""
+    },
+    {
+      "id": "1bb94b8c-e7d7-4d08-9e31-a57af8fc8dc1",
+      "country": "Afghanistan",
+      "state": "Khost",
+      "city": "Khōst"
+    },
+    {
+      "id": "85e17be5-95f0-4504-a577-2b0823abfc90",
+      "country": "Austria",
+      "state": "Carinthia",
+      "city": "Khōst"
+    },
+    {
+      "id": "e07c0bd2-6aaf-44a3-b0aa-1141a67ae6b8",
+      "country": "Afghanistan",
+      "state": "Khost",
+      "city": "Khōst"
+    },
+    {
+      "id": "2d7be903-4540-417c-b67b-c08dea5b8abb",
+      "country": "Armenia",
+      "state": "Aragatsotn Region",
+      "city": ""
+    },
+    {
+      "id": "600bd988-48a7-4d5f-a10e-18bba39989ee",
+      "country": "Afghanistan",
+      "state": "Khost",
+      "city": ""
+    },
+    {
+      "id": "7aa9357f-5d8c-4509-8b03-92a295c89fb6",
+      "country": "India",
+      "state": "Karnataka",
+      "city": ""
+    },
+    {
+      "id": "90a23f44-8e90-4fc5-9225-66861a99253c",
+      "country": "India",
+      "state": "Karnataka",
+      "city": "Gokak"
+    },
+    {
+      "id": "5ac0103d-aa47-4ac3-a1f4-6aed9fb87d3c",
+      "country": "Central African Republic",
+      "state": "Sangha-Mbaéré",
+      "city": "Nola"
+    },
+    {
+      "id": "04426245-dce6-4bfa-956e-b4661975dc45",
+      "country": "India",
+      "state": "Goa",
+      "city": "Candolim"
+    },
+    {
+      "id": "dc5f9c18-011d-48ad-9bb9-27783b37778c",
+      "country": "India",
+      "state": "Himachal Pradesh",
+      "city": "Jogindarnagar"
+    },
+    {
+      "id": "d9a42c5c-e8f7-431d-8c26-5a0a15a697c8",
+      "country": "Algeria",
+      "state": "Constantine",
+      "city": "Aïn Smara"
+    },
+    {
+      "id": "d3efc28c-bc63-4beb-9cba-e0d810a002ca",
+      "country": "Albania",
+      "state": "Kolonjë District",
+      "city": ""
+    },
+    {
+      "id": "849d6c32-4256-44b4-aaa8-a824d3982d31",
+      "country": "Algeria",
+      "state": "Constantine",
+      "city": "Aïn Smara"
+    },
+    {
+      "id": "d3652c3a-9edc-4761-af42-352d018e9505",
+      "country": "Angola",
+      "state": "Uíge Province",
+      "city": ""
+    },
+    {
+      "id": "bd3e6590-ebf0-4d12-943a-aa00d79f7a71",
+      "country": "Algeria",
+      "state": "Djanet",
+      "city": ""
+    },
+    {
+      "id": "39fa1dd3-db47-4e81-8f23-fdc16e35546c",
+      "country": "Albania",
+      "state": "Kolonjë District",
+      "city": ""
+    },
+    {
+      "id": "8f29b62f-e40b-4349-a133-61fd340c2984",
+      "country": "Austria",
+      "state": "Burgenland",
+      "city": "Eisenstadt Stadt"
+    },
+    {
+      "id": "32476d14-1f2d-4ee1-8690-f5f4babc485b",
+      "country": "United Kingdom",
+      "state": "Bedford",
+      "city": ""
+    },
+    {
+      "id": "afe42631-9cb4-48ec-91fc-65d31da7a1d7",
+      "country": "Equatorial Guinea",
+      "state": "Annobón Province",
+      "city": "San Antonio de Palé"
+    },
+    {
+      "id": "41d6e11d-c64f-4345-953a-b8fdb800b434",
+      "country": "Albania",
+      "state": "Has District",
+      "city": ""
+    },
+    {
+      "id": "59e05c07-699b-4cae-a81d-430a3fbfe4d4",
+      "country": "Afghanistan",
+      "state": "Kunar",
+      "city": ""
+    },
+    {
+      "id": "70288b36-54c1-46c5-bc9b-a26a410cc8f2",
+      "country": "India",
+      "state": "Karnataka",
+      "city": "Ankola"
+    },
+    {
+      "id": "48958ecb-b9ce-4c9c-8d43-dc6ee639ae15",
+      "country": "India",
+      "state": "Ladakh",
+      "city": "Kargil"
+    },
+    {
+      "id": "b870a33f-d50c-4c9c-8974-6d0887f08385",
+      "country": "Algeria",
+      "state": "Djanet",
+      "city": ""
+    },
+    {
+      "id": "8620a251-e9b2-45a3-b61e-c00083249273",
+      "country": "Andorra",
+      "state": "Encamp",
+      "city": "Pas de la Casa"
+    },
+    {
+      "id": "ed27dc0c-81fe-4e63-b86d-5fd0dc21af15",
+      "country": "Hungary",
+      "state": "Heves County",
+      "city": "Egri Járás"
+    },
+    {
+      "id": "b45f5d70-526e-46e4-827f-25a638d43df6",
+      "country": "Macedonia",
+      "state": "Demir Hisar Municipality",
+      "city": "Sopotnica"
     }
   ]
 }

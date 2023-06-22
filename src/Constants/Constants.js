@@ -6,6 +6,8 @@ export const FETCH_PRODUCT_URL = "https://fakestoreapi.com/products/"
 
 export const USERS_URL ="http://localhost:5000/users/"
 
+export const GEO_URL = "http://localhost:5000/geographic"
+
 
 export const restodata =[
 

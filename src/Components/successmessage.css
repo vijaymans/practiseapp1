@@ -1,0 +1,26 @@
+.successmessage{
+    border: 3px solid gray;
+    color : lightgreen;
+    width : 50%;
+    
+    margin : 50px auto;
+    padding : 20px;
+}
+
+.errormessage{
+
+    border: 3px solid red;
+    color : red;
+    width : 50%;
+    
+    
+    margin : 50px auto;
+    padding : 20px;
+
+}
+
+.successmessage button {
+    background-color : greenyellow;
+    width : 50px;
+    margin : 10px auto;
+}
