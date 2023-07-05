@@ -19,7 +19,11 @@ import ErrorMessage from './Components/ErrorMessage'
 
 
 
+
 const DynamicContact = lazy( ()=> import('./Components/ContactContainer.js') )
+
+const DynamicPaginate = lazy( () => import('./Components/Paginate.js') )
+console.log(DynamicPaginate)
 
 
 const store = configureStore()
@@ -70,7 +74,7 @@ const App = () =>
         errorElement : <Error/>,
 
         children : [
-                {
+              {
                   path : "About",
                   element : <About/>,
                   children : [ {
@@ -114,6 +118,13 @@ const App = () =>
               {
                 path : "AdminConsole",
                 element : <AdminConsole/>
+              },
+              {
+                path :'Paginate',
+                element : <Suspense fallback= { <h2>Data is loading....</h2> }>
+                            <DynamicPaginate/>
+                         </Suspense>
+        
               }
       
       ]
@@ -128,7 +139,9 @@ const App = () =>
       {
         path :'ErrorMessage',
         element : <ErrorMessage/>
-      }
+      },
+
+      
 
     ])
 

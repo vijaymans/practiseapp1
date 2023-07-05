@@ -22,11 +22,15 @@ const Header =() =>
                 <li>Home</li>
             </NavLink>
            
-            <NavLink to = "/About">
+            <NavLink to = "About">
                 <li>About</li>
             </NavLink>
+
+            <NavLink to="Paginate">
+                <li>Pagination</li>
+            </NavLink>
            
-            <NavLink to = "/Contact">
+            <NavLink to ="Contact">
                 <li>Contact</li>
             </NavLink>
             
