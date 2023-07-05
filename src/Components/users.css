@@ -1,0 +1,19 @@
+.usersform{
+    width : 30%;
+    margin : 20px auto; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: space-between;
+}
+
+.formcheckbox{
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+.formbutton
+{ 
+    width : 50%;
+    margin : 20px auto
+}

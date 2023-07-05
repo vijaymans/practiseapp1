@@ -1,0 +1,29 @@
+
+
+/* .tab button{
+    margin: 10px;
+    padding:10px;
+} */
+*
+{
+    font-weight :bold;
+}
+.tablebody{
+    width : 80%;
+    margin : 20px auto;
+}
+
+.tablebody td{
+    
+ width : 10px;
+
+}
+.paginate-button{
+    margin: 30px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around; 
+   
+
+}
