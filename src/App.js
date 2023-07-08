@@ -15,6 +15,7 @@ import Users from './Components/Users'
 import AdminConsole from './Components/AdminConsole'
 import SuccessMessage from './Components/SucessMessage'
 import ErrorMessage from './Components/ErrorMessage'
+import Login from './Components/Login'
 
 
 
@@ -140,6 +141,11 @@ const App = () =>
         path :'ErrorMessage',
         element : <ErrorMessage/>
       },
+
+      {
+        path : "Login",
+        element : <Login/>
+      }
 
       
 
