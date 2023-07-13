@@ -1,5 +1,5 @@
 import './Header.css'
-import Logo from '../Images/food-villa.png'
+// import Logo from '../Images/food-villa.png'
 import { NavLink } from 'react-router-dom'
 
 const Header =() =>
@@ -48,6 +48,10 @@ const Header =() =>
 
             <NavLink to="AdminConsole">
                 <li>Admin Console</li>
+            </NavLink>
+
+            <NavLink to="Cart">
+                <li>Cart</li>
             </NavLink>
             
         </ul>
