@@ -16,6 +16,7 @@ import AdminConsole from './Components/AdminConsole'
 import SuccessMessage from './Components/SucessMessage'
 import ErrorMessage from './Components/ErrorMessage'
 import Login from './Components/Login'
+import Cart from './Components/Cart'
 
 
 
@@ -24,7 +25,7 @@ import Login from './Components/Login'
 const DynamicContact = lazy( ()=> import('./Components/ContactContainer.js') )
 
 const DynamicPaginate = lazy( () => import('./Components/Paginate.js') )
-console.log(DynamicPaginate)
+console.log('App')
 
 
 const store = configureStore()
@@ -145,6 +146,11 @@ const App = () =>
       {
         path : "Login",
         element : <Login/>
+      },
+
+      {
+        path : "Cart",
+        element : <Cart/>
       }
 
       

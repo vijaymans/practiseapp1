@@ -1,9 +1,10 @@
 .Header {
-    border : 3px solid brown;
+    /* border : 3px solid brown; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width : 87rem
+    width : 100vw;
+    top : 2px;
    
     
 }

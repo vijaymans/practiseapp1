@@ -1,13 +1,4 @@
-.resturant-card,.products-card{
-    display: flex;
-    flex-wrap: wrap;
-    width : 75%;
-    height : 400px;
-    margin : 20px auto;
-    
 
-
-}
 .no-data {
     width : 600px;
     margin : 20px auto;

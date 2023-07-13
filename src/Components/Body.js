@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from "react"
 import "./Body.css"
 import ProductsCard from "./ProductsCard"
-import {restodata} from "../Constants/Constants"
-import { Audio } from 'react-loader-spinner'
+// import {restodata} from "../Constants/Constants"
 import {Link} from "react-router-dom"
 import Shimmer from "../Utils/Shimmer"
-import useOnline from "../Utils/useOnline"
+// import useOnline from "../Utils/useOnline"
 import { useDispatch ,useSelector} from "react-redux"
 import productsaction from "../actions/productsaction"
 
@@ -42,7 +41,8 @@ const Body =(props) =>
             {
                 return ele
             }
-            else if (ele.title.toLowerCase().includes(userinp.toLowerCase())){
+            else if (ele.title.toLowerCase().includes(userinp.toLowerCase()))
+            {
                 return ele
             }
         })
@@ -63,32 +63,35 @@ const Body =(props) =>
              placeholder="Search"
              value ={userinp}
              onChange ={handleChange}
-             style={{margin : "30px"}}/> 
+             style={{margin : "30px", borderRadius:"12px"}}/> 
 
             {console.log("Initial rendering")}
             
-            <div className="products-card">
+            <div className="product-container">
               { loader ?    
                         <h2>Data is loading.....</h2>
                         // <Shimmer/>
                         :
-                            (filteredData.length ===0 && userinp!==""  )  ? 
+                            (filteredData.length ===0 && userinp!==""  ) 
+                            
+                            ? 
                             <div className="no-data">
                                 <span >Sorry No Records Found!!</span>
                             </div>
-                                                                         :
+                            :
                
                             ( filteredData.map ( (ele) =>
                                     {
-                                        return (<Link to = {"/Product/" + ele.id} key={ele.id}
+                                        return ( <div className="product-container-child">
+                                                 <Link to = {"/Product/" + ele.id} key={ele.id}
                                                  style={{ textDecoration: 'none' }}>
                                                  <ProductsCard  ele = {ele}
                                                                 userdata ={userdata}/>
                                                  
-                                                </Link>)
-                                                 
-                                                  
-
+                                                </Link>
+                    
+                                                </div>
+                                            )
 
                                     }) 
                             )

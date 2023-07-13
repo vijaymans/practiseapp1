@@ -1,0 +1,128 @@
+
+.cart-btn{
+    width : 200px;
+    margin :auto;
+    border-radius: 14px;
+    font-size: 18px;
+    padding: 5px;
+    color: goldenrod;
+    background-color: brown;
+    
+}
+
+@media(min-width :1000px )
+{
+    .cart{
+        /* width : 100%; */
+        text-align: center;
+        width : 100vw;
+        margin : 30px auto ;
+        border : 3px solid red;
+        border-radius: 14px;
+    }
+    .cart-btn-quantity{
+        width : 30px;
+        border-radius: 14px;
+        font-size: 18px;
+        margin: 0 10px;
+        color: goldenrod;
+        background-color: brown;
+        
+    }
+
+    .cart-btn-delete{
+        width : 100px;
+        border-radius: 14px;
+        font-size: 18px;
+        margin: 0 10px;
+        color: goldenrod;
+        background-color: brown;
+        
+    }
+
+    .cartfont{
+    
+        font-size: larger;
+        font-weight: bolder;
+
+    }
+
+}
+
+
+
+
+@media(min-width: 600px)and (max-width: 1000px)
+{
+    .cart{
+        /* width : 100%; */
+        text-align: center;
+        width : 100vw;
+        margin : 20px auto ;
+        border : 2px solid red;
+        border-radius: 12px;
+    }
+    .cart-btn-quantity{
+        width : 20px;
+        border-radius: 12px;
+        font-size: 14px;
+        margin: 0 10px;
+        color: goldenrod;
+        background-color: brown;
+        
+    }
+
+    .cart-btn-delete{
+        width : 80px;
+        border-radius: 10px;
+        font-size: 14px;
+        margin: 0 10px;
+        color: goldenrod;
+        background-color: brown;
+        
+    }
+
+    .cartfont{
+    
+        font-size: small;
+        font-weight: bolder;
+
+    }
+}
+
+@media(max-width: 600px)
+{
+    .cart{
+        /* width : 100%; */
+        text-align: center;
+        width : 100vw;
+        margin : 5px auto ;
+        border : 2px solid red;
+        border-radius: 8px;
+    }
+    .cart-btn-quantity{
+        width : 10px;
+        border-radius: 10px;
+        font-size: 8px;
+        margin: 0 10px;
+        color: goldenrod;
+        background-color: brown;
+        
+    }
+    .cart-btn-delete{
+        width : 40px;
+        border-radius: 8px;
+        font-size: 10px;
+        margin: 0 10px;
+        color: goldenrod;
+        background-color: brown;
+        
+    }
+    .cartfont{
+    
+        font-size: larger;
+        font-weight: bolder;
+
+    }
+}
+

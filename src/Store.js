@@ -4,6 +4,7 @@ import thunk from 'redux-thunk'
 import {applyMiddleware,compose} from 'redux'
 import userReducers from './reducers/usersreducers'
 import geoDatareducers from './reducers/geodatareducers'
+import cartreducers from './reducers/cartreducers'
 
 const configureStore =()=>
 {
@@ -11,6 +12,7 @@ const configureStore =()=>
         products : productsreducers,
         users : userReducers,
         geodata : geoDatareducers,
+        cartItems : cartreducers
        
 
     })
